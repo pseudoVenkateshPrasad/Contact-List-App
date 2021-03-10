@@ -1,0 +1,20 @@
+{
+  "name": "contact_list",
+  "version": "1.0.0",
+  "description": "This App will let the users to add contacts to the list and they can delete them as well.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "contact_list"
+  ],
+  "author": "pseudoCoder",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  }
+}

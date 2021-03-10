@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    background-color: rgb(82, 82, 253);
+}
+
+
+.container
+{
+    background-color: mintcream;
+    max-width: 50%;
+    max-height: 100%;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    box-shadow: 0 6px 5px 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading
+{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.heading .title
+{
+    padding:5px 10px;
+    color: rgb(46, 45, 45);
+}
+.phone-book
+{
+    font-size: 26px;
+    color: rgb(46, 45, 45);
+}
+
+.book{
+    margin: auto;
+    margin-left: 15%;
+    width: 70%;
+    
+}
+
+.book ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book li
+{   
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 53, 53);
+    padding: 10px;
+    color: whitesmoke;
+    margin-top: 1px;
+}
+
+.book li:hover
+{
+    background-color: rgb(61, 61, 204);
+}
+.icon-link
+{
+    color: white;
+}
+
+.icon-link:hover
+{
+    color: red;
+}
+
+.myform
+{
+    /* border: 2px solid; */
+    margin-top: 20px;
+}
+
+#name
+{
+    outline-style: none;
+    border-style: none;
+    border-bottom: 1px solid darkslategrey;
+    
+    font-size: 12px;
+    padding: 10px;
+}
+
+#phone
+{
+    outline-style: none;
+    border-style: none;
+    border-bottom: 1px solid rgb(84, 128, 128);
+    font-size: 12px;
+    padding: 10px;
+}
+
+.btn
+{
+    padding: 10px;
+    outline-style: none;
+    border-style: none;
+    background-color: darkslategrey;
+    color: white;
+
+}
+
+.btn:hover{
+    background-color: rgb(20, 20, 20);
+}
+
+.details
+{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.user-name
+{
+    font-size: 18px;
+}
+
+.u-details
+{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
